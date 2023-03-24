@@ -1,0 +1,9 @@
+
+continous Integration
+process of automaticaly building and testing code changes whenever they are made
+
+continous Deployment 
+
+process of automaticaly Deploying code to the production server after been tested/approved.
+
+tools-github-aciton,jenkins
