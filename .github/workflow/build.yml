@@ -1,7 +1,9 @@
 on: push
-jobs: 
-    first-job: 
+jobs:
+    second-job:
         runs-on: windows-latest, macos-latest, ubuntu-latest
         steps:
             - run: node --version
             - run: npm --version
+            - uses: action/checkout@v3
+            - run: node index.jsgit a
