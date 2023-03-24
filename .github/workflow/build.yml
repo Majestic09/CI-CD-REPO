@@ -6,4 +6,5 @@ jobs:
             - run: node --version
             - run: npm --version
             - uses: action/checkout@v3
-            - run: node index.jsgit a
+            - run: npm install
+            - run: node index.js
